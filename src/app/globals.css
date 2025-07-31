@@ -14,6 +14,22 @@
   }
 }
 
+@font-face {
+  font-family: 'VeronaSerial', 'Poppings'; /* Choose a name for your font */
+  src: local('VeronaSerial'), url('./../assets/fonts/verona-serial-regular.ttf') format('truetype');
+  src: local('Poppins'), 
+       url('https://fonts.googleapis.com/css2?family=Poppins'); 
+}
+
+.poppins-regular {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400; /* Regular weight */
+}
+
+.mytext {
+  font-family: 'VeronaSerial', sans-serif; /* Add fallback fonts */
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
